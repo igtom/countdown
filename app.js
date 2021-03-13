@@ -1,7 +1,7 @@
-const daysSpan = document.getElementById('days')
-const hoursSpan = document.getElementById('hours')
-const minutesSpan = document.getElementById('minutes')
-const secondsSpan = document.getElementById('seconds')
+const daysSpan = document.getElementById('days');
+const hoursSpan = document.getElementById('hours');
+const minutesSpan = document.getElementById('minutes');
+const secondsSpan = document.getElementById('seconds');
 
 
 const myNextBirthday = '23 Jan 2022';
@@ -23,9 +23,9 @@ const countdown = () => {
 }
 
 const formatTime = time => {
-    return time < 10 ? `0${time}` : time
+    return time < 10 ? `0${time}` : time;
 }
 
-countdown()
+countdown();
 
-setInterval(countdown, 1000)
+setInterval(countdown, 1000);
